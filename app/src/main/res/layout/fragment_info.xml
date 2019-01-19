@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".info"
+
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="186dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="Information"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="308dp"
+        android:layout_height="169dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:lineSpacingExtra="8sp"
+        android:text="   Our Application were designed for safety purpose, Car accident detection using sensor fusion(machine vision, sound detection and G-force), with these sensors we can detect if accident occurs and then report it for the emergency."
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="309dp"
+        android:layout_height="139dp"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_alignRight="@id/editText2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginRight="-1dp"
+        android:layout_marginBottom="142dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:text="the Application will detect the street lanes, detect the sound of crashing and finally G-Force will be used to eliminate the error."
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+</RelativeLayout>
